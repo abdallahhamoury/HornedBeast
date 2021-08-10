@@ -21,7 +21,7 @@ class HornedBeast extends React.Component {
     render() {
         return (
             <div className='Horned'>
-                <Card style={{ width: '250px' }}>
+                <Card style={{ width: 'auto' }}>
                     <Card.Title>{this.props.title}</Card.Title>
                     <Card.Title>keyword: {this.props.keyword}</Card.Title>
                     <Card.Title> horns: {this.props.horns} </Card.Title>
