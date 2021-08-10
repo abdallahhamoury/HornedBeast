@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    font-family: 'Anton', sans-serif;
+}
+.Horned{
+    display: inline-block;
+    background-color: white;
+    height: auto;
+    width: auto;
+    margin: 2%;
+    margin-left: 5%;
+
+    
+}
+
+h1{
+    background-color: rgb(2, 250, 250);
+    text-align: center;
+    }
+
+h3{
+    text-align: center;
+    background-color: rgb(2, 250, 250);
+}
+
+.Horned button{
+    background-color: tomato;
+}

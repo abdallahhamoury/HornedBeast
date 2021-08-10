@@ -1,4 +1,5 @@
 import React from 'react';
+import './HornedBeast.css'
 
 
 
@@ -6,9 +7,9 @@ class Footer extends React.Component {
     render() {
         return (
             <div>
-                <p>
+                <h3>
                     Abdallah Hamoury &#169;
-                </p>
+                </h3>
             </div>
         )
     }
