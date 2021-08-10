@@ -21,7 +21,7 @@ class HornedBeast extends React.Component {
     render() {
         return (
             <div className='Horned'>
-                <Card style={{ width: 'auto' }}>
+                <Card style={{ width: '250px' }}>
                     <Card.Title>{this.props.title}</Card.Title>
                     <Card.Title>keyword: {this.props.keyword}</Card.Title>
                     <Card.Title> horns: {this.props.horns} </Card.Title>
@@ -30,7 +30,7 @@ class HornedBeast extends React.Component {
                         <Button onClick={this.increaseFavorites} variant="primary">Click Here</Button>
 
                         <Card.Text>
-                            <p className="favorites">favorites:💜{this.state.numberOfFavorites}</p>
+                            <p className="favorites">favorites:💜{this.state.favorites}</p>
                         </Card.Text>
                         <p id='dis'> {this.props.description}
                         </p>
