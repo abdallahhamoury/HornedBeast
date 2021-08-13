@@ -10,7 +10,7 @@
     width: auto;
     margin: 2%;
     margin-left: 5%;
-
+    text-align: center;
     
 }
 
@@ -27,3 +27,4 @@ h3{
 .Horned button{
     background-color: tomato;
 }
+

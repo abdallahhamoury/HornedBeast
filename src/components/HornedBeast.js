@@ -18,6 +18,11 @@ class HornedBeast extends React.Component {
         })
     }
 
+renderModel = ()=>{
+    this.props.renerModelBeast(this.props.keyword);
+};
+
+
     render() {
         return (
             <div className='Horned'>
@@ -28,7 +33,7 @@ class HornedBeast extends React.Component {
                     <Card.Img variant="top" src={this.props.imageUrl} alt={this.props.imageAlt} title={this.props.imageTitle} />
                     <Card.Body>
                         <Button onClick={this.increaseFavorites} variant="primary">Click Here</Button>
-
+                        <Button onClick={this.renderModel} variant="primary">Show Model</Button>
                         <Card.Text>
                             <p className="favorites">favorites:💜{this.state.favorites}</p>
                         </Card.Text>
@@ -40,7 +45,7 @@ class HornedBeast extends React.Component {
         )
     }
 
-}
+};
 
 
 
